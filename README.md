@@ -18,4 +18,19 @@ dos resultados obtidos.
 ## Execução
 1. Instalar dependências:
 ```bash
-npm install
+- npm install
+
+## Gerar relatório HTML:
+
+node scripts/gerarRelatorio.js
+Resultados
+
+Os resultados são exportados em formato HTML, contendo:
+
+Violações encontradas
+
+Nível de impacto
+
+Referência às diretrizes WCAG
+
+Elementos afetados
